@@ -87,7 +87,6 @@ const products = [
     image: "https://images.unsplash.com/photo-1586201375761-83865001e17b",
   },
 
-  /* 🔽 previously nested items — now FLATTENED 🔽 */
 
   {
     id: "31",

@@ -2,7 +2,6 @@ import { createContext, useContext, useState } from "react";
 import { toast } from "react-toastify";
 
 export const CartContext = createContext(null);
-
 export const CartProvider = ({ children }) => {
   const [cartItem, setCartItem] = useState([]);
   const addToCart = (product) => {
